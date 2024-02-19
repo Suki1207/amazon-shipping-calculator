@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Amazon Shipping Calculator</title>
+  </head>
+  <body>
+    <h1>Amazon Shipping Calculator</h1>
+
+    <p>Orders under $40 = +$10 shipping.</p>
+    <p>Orders over $40 = FREE shipping.</p>
+
+    <div class="container">
+      <input type="number" id="order-amount" placeholder="Cost of order" />
+      <button id="submit-button">Calculate</button>
+    </div>
+
+    <div class="total-cost"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
